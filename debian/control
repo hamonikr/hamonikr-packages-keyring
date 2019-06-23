@@ -1,0 +1,13 @@
+Source: hamonikr-packages-keyring
+Section: misc
+Priority: optional
+Maintainer: HamoniKR Team <hamonikr-packages@googlegroups.com>
+Standards-Version: 1.0.0
+
+Package: hamonikr-packages-keyring
+Priority: important
+Architecture: all
+Depends: gnupg (>= 1.0.6-4)
+Description: GnuPG key of the HamoniKR repository
+ The HamoniKR repository digitally signs its Release files. This package
+ contains the repository keys used for that.
